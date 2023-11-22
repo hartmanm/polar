@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /
+  static_files: polar/polar.html
+  upload: polar/polar.html
+
+- url: /(.*\.(png|jpg|jpeg|zip|jp2|css|js|html))$
+  static_files: polar/\1
+  upload: polar/.*\.(png|jpg|jpeg|zip|jp2|css|js|html)$
