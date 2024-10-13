@@ -1,6 +1,3 @@
-//
-// 2018,2019,2020 Michael Neill Hartman
-//
 var screen_width=screen.availWidth;
 var width = Math.floor(parseInt((screen_width*0.35)));
 var height = Math.floor(parseInt((screen_width*0.35)));
